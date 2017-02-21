@@ -1,0 +1,11 @@
+<suite name="OrangeSuite" parallel="none">
+  <test name="FirefoxTest">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+       <class name="pageObject_Component.VerifyLoginLogout"/>
+       
+      
+
+    </classes>
+  </test>
+</suite>

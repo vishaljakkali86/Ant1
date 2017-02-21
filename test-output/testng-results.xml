@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeSuite" duration-ms="24708" started-at="2017-02-21T11:15:20Z" finished-at="2017-02-21T11:15:45Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="24708" started-at="2017-02-21T11:15:20Z" finished-at="2017-02-21T11:15:45Z">
+      <class name="pageObject_Component.VerifyLoginLogout">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="initFrameWork" is-config="true" duration-ms="473" started-at="2017-02-21T16:45:20Z" finished-at="2017-02-21T16:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="initBrowser" is-config="true" duration-ms="8" started-at="2017-02-21T16:45:20Z" finished-at="2017-02-21T16:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="initApplication" is-config="true" duration-ms="6047" started-at="2017-02-21T16:45:20Z" finished-at="2017-02-21T16:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="preCondition" is-config="true" duration-ms="8" started-at="2017-02-21T16:45:27Z" finished-at="2017-02-21T16:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageObject_Component.VerifyLoginLogout.testLoginLogout() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testLoginLogout()[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="testLoginLogout" duration-ms="14529" started-at="2017-02-21T16:45:27Z" finished-at="2017-02-21T16:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="postCondition" is-config="true" duration-ms="4" started-at="2017-02-21T16:45:42Z" finished-at="2017-02-21T16:45:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginLogout status=SUCCESS method=VerifyLoginLogout.testLoginLogout()[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="closeApplication" is-config="true" duration-ms="3586" started-at="2017-02-21T16:45:42Z" finished-at="2017-02-21T16:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2017-02-21T16:45:45Z" finished-at="2017-02-21T16:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeFrameWork()[pri:0, instance:pageObject_Component.VerifyLoginLogout@6ebc05a6]" name="closeFrameWork" is-config="true" duration-ms="836" started-at="2017-02-21T16:45:46Z" finished-at="2017-02-21T16:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFrameWork -->
+      </class> <!-- pageObject_Component.VerifyLoginLogout -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- OrangeSuite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeSuite]">
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="pageObject_Component.VerifyLoginLogout">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="testLoginLogout"/>
+          <include name="initFrameWork"/>
+        </methods>
+      </class> <!-- pageObject_Component.VerifyLoginLogout -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [OrangeSuite] -->
